@@ -1,0 +1,23 @@
+﻿@page "/crear-personaje"
+@rendermode InteractiveServer
+@attribute [StreamRendering]
+<h3>Crear un nuevo Personaje</h3>
+
+<input class="form-control" type="text" name="name" @bind="id" />
+<button @onclick=Buscar>Buscar</button>
+
+<input class="form-control" type="text" name="name" @bind="nombre" />
+<input class="form-control" type="text" name="name" @bind="salud" />
+<input class="form-control" type="text" name="name" @bind="energia" />
+<input class="form-control" type="text" name="name" @bind="fuerza" />
+<input class="form-control" type="text" name="name" @bind="inteligencia" />
+<input class="form-control" type="text" name="name" @bind="agilidad" />
+<input class="form-control" type="text" name="name" @bind="tipoId" />
+
+<button @onclick=Enviar>Enviar</button>
+<button @onclick=Eliminar>Eliminar</button>
+<button @onclick=Actualizar>Actualizar</button>
+@* <button @onclick=Consultar>Consultar</button> *@
+
+
+<h4>@mensaje</h4>

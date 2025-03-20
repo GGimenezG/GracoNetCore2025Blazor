@@ -1,0 +1,21 @@
+﻿
+@page "/contador"
+@rendermode InteractiveServer
+@inherits CounterBase
+<PageTitle>Counter</PageTitle>
+
+<HolaMundo></HolaMundo>
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+@{
+    foreach (var item in new List<string>() { "uno", "dos", "tres"})
+    {
+        <p>@item</p>
+    }
+}
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+

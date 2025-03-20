@@ -1,0 +1,27 @@
+﻿@page "/todo-list"
+@rendermode InteractiveServer
+@inherits TodoListBase
+
+<h1>Todolist</h1>
+
+<input class="form-control" type="text" name="name" @bind="texto" />
+
+<button class="btn btn-primary" @onclick="AgregarActividad" >Agregar</button>
+
+<ul>
+    @{
+        foreach(var item in lstTareas)
+        {
+            <li>@item</li>
+        }
+    }
+</ul>
+
+@{
+    if (!String.IsNullOrEmpty(error))
+    {
+        <p class="alert-danger">@error</p>
+    }
+}
+
+
