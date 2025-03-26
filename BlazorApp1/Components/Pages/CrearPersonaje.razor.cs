@@ -1,4 +1,6 @@
-﻿using Data.Models;
+﻿using BlazorApp1.Data;
+using Core.Entities;
+using Data.Models;
 using Newtonsoft.Json;
 using System.Text;
 
@@ -19,18 +21,16 @@ namespace BlazorApp1.Components.Pages
         public string mensaje { get; set; }
         public async void Enviar()
         {
-            Personaje personaje = new Personaje();
+            PersonajeDTO personaje = new PersonajeDTO();
             personaje.agilidad = agilidad;
             personaje.salud = salud;
 
             personaje.nombre = nombre;
             personaje.tipoId = tipoId;
 
-            HttpClient httpClient = new HttpClient();
-            string urlApi = "https://localhost:7215/api/Personaje";
-            var data = new StringContent(JsonConvert.SerializeObject(personaje), Encoding.UTF8, "application/json");
-            HttpResponseMessage httpResponse = await httpClient.PostAsync(urlApi, data);
-            if (httpResponse.IsSuccessStatusCode)
+            string urlApi = "Personaje";
+            var respuesta = await Consumer.Execute<PersonajeDTO>(urlApi, methodHttp.POST, personaje);
+            if (respuesta.Ok)
             {
                 mensaje = ":) furula";
             }
@@ -43,21 +43,15 @@ namespace BlazorApp1.Components.Pages
 
         public async void Buscar()
         {
-            HttpClient httpClient = new HttpClient();
-            string urlApi = $"https://localhost:7215/api/Personaje";
+            string urlApi = $"Personaje";
             //var data = new StringContent(JsonConvert.SerializeObject(personaje), Encoding.UTF8, "application/json");
-            HttpResponseMessage httpResponse = await httpClient.GetAsync(urlApi);
-            if (httpResponse.IsSuccessStatusCode)
-            {
-                List<Personaje> lstPersonaje = new List<Personaje>();
+            var respuesta = await Consumer.Execute<List<Personaje>>(urlApi, methodHttp.GET, null);
 
-                using (HttpContent content = httpResponse.Content)
-                {
-                    string data = await content.ReadAsStringAsync();
-                    if(data != null)
-                        lstPersonaje = JsonConvert.DeserializeObject<List<Personaje>>(data);
-                }
-                Personaje personaje = lstPersonaje.FirstOrDefault(per => per.id == id);
+            if (respuesta.Ok)
+            {
+                List<PersonajeDTO> lstPersonaje = respuesta.Data;
+
+                PersonajeDTO personaje = lstPersonaje.FirstOrDefault(per => per.id == id);
 
                 if (!String.IsNullOrEmpty(personaje.nombre))
                 {
@@ -77,18 +71,17 @@ namespace BlazorApp1.Components.Pages
 
         public async void Actualizar()
         {
-            Personaje personaje = new Personaje();
+            PersonajeDTO personaje = new PersonajeDTO();
             personaje.agilidad = agilidad;
             personaje.salud = salud;
 
             personaje.nombre = nombre;
             personaje.tipoId = tipoId;
 
-            HttpClient httpClient = new HttpClient();
-            string urlApi = "https://localhost:7215/api/Personaje";
-            var data = new StringContent(JsonConvert.SerializeObject(personaje), Encoding.UTF8, "application/json");
-            HttpResponseMessage httpResponse = await httpClient.PostAsync(urlApi, data);
-            if (httpResponse.IsSuccessStatusCode)
+
+            string urlApi = "Personaje";
+            var respuesta = await Consumer.Execute<PersonajeDTO>(urlApi, methodHttp.PUT, personaje);
+            if (respuesta.Ok)
             {
                 mensaje = ":) furula";
             }
@@ -101,11 +94,12 @@ namespace BlazorApp1.Components.Pages
 
         public async void Eliminar()
         {
-            HttpClient httpClient = new HttpClient();
-            string urlApi = $"https://localhost:7215/api/Personaje/{id}";
-            //var data = new StringContent(JsonConvert.SerializeObject(personaje), Encoding.UTF8, "application/json");
-            HttpResponseMessage httpResponse = await httpClient.DeleteAsync(urlApi);
-            if (httpResponse.IsSuccessStatusCode)
+
+
+            string urlApi = $"/Personaje/{id}";
+
+            var respuesta = await Consumer.Execute<PersonajeDTO>(urlApi,methodHttp.DELETE, null);
+            if (respuesta.Ok)
             {
                 mensaje = ":) furula";
 

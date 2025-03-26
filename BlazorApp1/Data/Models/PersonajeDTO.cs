@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class Personaje 
+    public class PersonajeDTO 
     {
         public int id { get; set; }
         public string nombre { get; set; } = string.Empty;
