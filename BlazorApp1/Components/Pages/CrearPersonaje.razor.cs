@@ -8,28 +8,14 @@ namespace BlazorApp1.Components.Pages
 {
     public partial class CrearPersonaje
     {
-        public int id { get; set; }
-        public string nombre { get; set; } = string.Empty;
-        public int salud { get; set; }
-        public int energia { get; set; }
-        public int fuerza { get; set; }
-        public int inteligencia { get; set; }
-        public int agilidad { get; set; }
-        public int nivel { get; set; }
-        public int defensa { get; set; }
-        public int? tipoId { get; set; }
+        public PersonajeDTO personaje = new();
         public string mensaje { get; set; }
         public async void Enviar()
         {
-            PersonajeDTO personaje = new PersonajeDTO();
-            personaje.agilidad = agilidad;
-            personaje.salud = salud;
-
-            personaje.nombre = nombre;
-            personaje.tipoId = tipoId;
+            //validar lo que ya tengo en la entidad personaje
 
             string urlApi = "Personaje";
-            var respuesta = await Consumer.Execute<PersonajeDTO>(urlApi, methodHttp.POST, personaje);
+            var respuesta = await Consumer.Execute<Personaje, PersonajeDTO>(urlApi, methodHttp.POST, personaje);
             if (respuesta.Ok)
             {
                 mensaje = ":) furula";
@@ -43,44 +29,50 @@ namespace BlazorApp1.Components.Pages
 
         public async void Buscar()
         {
-            string urlApi = $"Personaje";
-            //var data = new StringContent(JsonConvert.SerializeObject(personaje), Encoding.UTF8, "application/json");
-            var respuesta = await Consumer.Execute<List<Personaje>>(urlApi, methodHttp.GET, null);
-
-            if (respuesta.Ok)
+            try
             {
-                List<PersonajeDTO> lstPersonaje = respuesta.Data;
 
-                PersonajeDTO personaje = lstPersonaje.FirstOrDefault(per => per.id == id);
+                string urlApi = $"Personaje";
+                //var data = new StringContent(JsonConvert.SerializeObject(personaje), Encoding.UTF8, "application/json");
+                var respuesta = await Consumer.Execute<List<Personaje>>(urlApi, methodHttp.GET, null);
 
-                if (!String.IsNullOrEmpty(personaje.nombre))
+                if (respuesta.Ok)
                 {
-                    nombre = personaje.nombre;
-                    salud = personaje.salud;
-                    tipoId = personaje.tipoId;
+                    List<Personaje> lstPersonaje = respuesta.Data;
+
+                    Personaje personajeResponse = lstPersonaje.FirstOrDefault(per => per.id == personaje.id);
+
+                    if (personajeResponse == null)
+                        throw new Exception("Persoanje no existe");
+
+                    if (!String.IsNullOrEmpty(personajeResponse.nombre))
+                    {
+                        personaje.nombre = personajeResponse.nombre;
+                        personaje.salud = personajeResponse.salud.valor;
+                        personaje.tipoId = personajeResponse.tipoId;
+                    }
+
+                    mensaje = ":) furula";
+
                 }
-
-                mensaje = ":) furula";
-
+                else
+                {
+                    mensaje = "): no furula";
+                }
             }
-            else
+            catch(Exception ex)
             {
-                mensaje = "): no furula";
+                mensaje = ex.Message;
             }
+            StateHasChanged();
         }
 
         public async void Actualizar()
         {
-            PersonajeDTO personaje = new PersonajeDTO();
-            personaje.agilidad = agilidad;
-            personaje.salud = salud;
-
-            personaje.nombre = nombre;
-            personaje.tipoId = tipoId;
-
+            
 
             string urlApi = "Personaje";
-            var respuesta = await Consumer.Execute<PersonajeDTO>(urlApi, methodHttp.PUT, personaje);
+            var respuesta = await Consumer.Execute<Personaje,PersonajeDTO>(urlApi, methodHttp.PUT, personaje);
             if (respuesta.Ok)
             {
                 mensaje = ":) furula";
@@ -96,9 +88,9 @@ namespace BlazorApp1.Components.Pages
         {
 
 
-            string urlApi = $"/Personaje/{id}";
+            string urlApi = $"/Personaje/{personaje.id}";
 
-            var respuesta = await Consumer.Execute<PersonajeDTO>(urlApi,methodHttp.DELETE, null);
+            var respuesta = await Consumer.Execute<string>(urlApi,methodHttp.DELETE, null);
             if (respuesta.Ok)
             {
                 mensaje = ":) furula";

@@ -3,16 +3,31 @@
 @attribute [StreamRendering]
 <h3>Crear un nuevo Personaje</h3>
 
-<input class="form-control" type="text" name="name" @bind="id" />
-<button @onclick=Buscar>Buscar</button>
 
-<input class="form-control" type="text" name="name" @bind="nombre" />
-<input class="form-control" type="text" name="name" @bind="salud" />
-<input class="form-control" type="text" name="name" @bind="energia" />
-<input class="form-control" type="text" name="name" @bind="fuerza" />
-<input class="form-control" type="text" name="name" @bind="inteligencia" />
-<input class="form-control" type="text" name="name" @bind="agilidad" />
-<input class="form-control" type="text" name="name" @bind="tipoId" />
+
+        <button class="btn btn-primary" @onclick=Buscar>Buscar</button>
+<EditForm Model="@personaje" OnSubmit="Enviar">
+    <div class="form-group d-flex">
+        <label>
+            <span>Id</span>
+            <InputNumber class="form-control" @bind-Value="personaje.id" />
+        </label>
+    </div>
+    <label>
+        <span>Nombre</span>
+        <InputText class="form-control" @bind-Value="personaje.nombre" />
+    </label>
+    <label>
+        <span>Salud</span>
+        <InputNumber class="form-control" @bind-Value="personaje.salud" />
+    </label>
+    <label>
+        <span>Tipo personaje</span>
+        <InputNumber class="form-control" @bind-Value="personaje.tipoId" />
+    </label>
+    <input class="btn btn-dark" type="submit" value="Enviar" />
+</EditForm>
+
 
 <button @onclick=Enviar>Enviar</button>
 <button @onclick=Eliminar>Eliminar</button>
