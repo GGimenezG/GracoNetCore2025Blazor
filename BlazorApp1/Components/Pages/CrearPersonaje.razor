@@ -6,30 +6,34 @@
 
 
         <button class="btn btn-primary" @onclick=Buscar>Buscar</button>
-<EditForm Model="@personaje" OnSubmit="Enviar">
-    <div class="form-group d-flex">
+<EditForm Model="@personaje" OnValidSubmit="Enviar">
+    <DataAnnotationsValidator/>
+    <div class="form-group d-flex flex-column">
         <label>
             <span>Id</span>
             <InputNumber class="form-control" @bind-Value="personaje.id" />
+            <ValidationMessage For="() => personaje.id" />
+        </label>
+        <label>
+            <span>Nombre</span>
+            <InputText class="form-control" @bind-Value="personaje.nombre" />
+            <ValidationMessage For="() => personaje.nombre" class="alert alert-danger" />
+        </label>
+        <label>
+            <span>Salud</span>
+            <InputNumber class="form-control" @bind-Value="personaje.salud" />
+            <ValidationMessage For="() => personaje.salud" />
+        </label>
+        <label>
+            <span>Tipo personaje</span>
+            <InputNumber class="form-control" @bind-Value="personaje.tipoId" />
+            <ValidationMessage For="() => personaje.tipoId" />
         </label>
     </div>
-    <label>
-        <span>Nombre</span>
-        <InputText class="form-control" @bind-Value="personaje.nombre" />
-    </label>
-    <label>
-        <span>Salud</span>
-        <InputNumber class="form-control" @bind-Value="personaje.salud" />
-    </label>
-    <label>
-        <span>Tipo personaje</span>
-        <InputNumber class="form-control" @bind-Value="personaje.tipoId" />
-    </label>
     <input class="btn btn-dark" type="submit" value="Enviar" />
+    <ValidationSummary></ValidationSummary>
 </EditForm>
 
-
-<button @onclick=Enviar>Enviar</button>
 <button @onclick=Eliminar>Eliminar</button>
 <button @onclick=Actualizar>Actualizar</button>
 @* <button @onclick=Consultar>Consultar</button> *@

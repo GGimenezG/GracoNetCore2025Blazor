@@ -24,7 +24,9 @@ namespace BlazorApp1.Data
         }
         public static async Task<Response<R>> Execute<R,T>(string endpoint, methodHttp methodHttp, T Data)
         {
-            string urlBaseApi = "http://gracosoftnet2025.runasp.net/api/";
+            //string urlBaseApi = "http://gracosoftnet2025.runasp.net/api/";
+            string urlBaseApi = "https://localhost:7215/api/";
+        
             Response<R> response = new();
             try
             {
@@ -53,9 +55,18 @@ namespace BlazorApp1.Data
                         {
                             string dataResponse = await content.ReadAsStringAsync();
                             if (dataResponse != null)
-                                response.Data = JsonConvert.DeserializeObject<R>(dataResponse);
+                            {
+                                try
+                                {
+                                    response.Data = JsonConvert.DeserializeObject<R>(dataResponse);
+                                    response.Ok = true;
+                                }
+                                catch (Exception ex)
+                                {
+                                    response.Message = dataResponse;
+                                }
+                            }
                             response.StatusCode = responseApi.StatusCode.ToString();
-                            response.Ok = true;
                         }
 
                     };
@@ -73,7 +84,8 @@ namespace BlazorApp1.Data
 
         public static async Task<Response<T>> Execute<T>(string endpoint, methodHttp methodHttp, T Data)
         {
-            string urlBaseApi = "http://gracosoftnet2025.runasp.net/api/";
+            //string urlBaseApi = "http://gracosoftnet2025.runasp.net/api/";
+            string urlBaseApi = "https://localhost:7215/api/";
             Response<T> response = new();
             try
             {
@@ -102,9 +114,17 @@ namespace BlazorApp1.Data
                         {
                             string dataResponse = await content.ReadAsStringAsync();
                             if (dataResponse != null)
-                                response.Data = JsonConvert.DeserializeObject<T>(dataResponse);
+                            {
+                                try
+                                {
+                                    response.Data = JsonConvert.DeserializeObject<T>(dataResponse);
+                                    response.Ok = true;
+                                }
+                                catch (Exception ex) {
+                                    response.Message = dataResponse;
+                                }
+                            }
                             response.StatusCode = responseApi.StatusCode.ToString();
-                            response.Ok = true;
                         }
 
                     }

@@ -1,7 +1,14 @@
 ﻿@page "/hola/{mensaje?}"
+@rendermode InteractiveServer
 
-<h3>HolaMundo desde el componente HolaMundo: @mensaje</h3>
+
+<article>
+    
+    <h3>HolaMundo desde el componente HolaMundo: @mensaje</h3>
 
 
-<h4>@mensajeMostrar</h4>
+    <h4>@mensajeMostrar</h4>
 
+    <button @onclick="ClickCallback" >Enviar evento al padre callback</button>
+
+</article>

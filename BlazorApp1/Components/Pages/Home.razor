@@ -1,9 +1,29 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
 <PageTitle>Home modificado</PageTitle>
 
-<h1>Hello, world!</h1>
+<article style="border: 2px solid @borde"> 
 
-<HolaMundo></HolaMundo>
+    <h1 id="titulo1">Hello, world!</h1>
 
-Welcome to your new app.
+    <HolaMundo mensaje="@mensaje"   OnClick="ModificarMensaje"></HolaMundo>
+
+    Welcome to your new app.
+</article>
+
+@code{
+    [CascadingParameter]
+    public string borde { get; set; } = string.Empty;
+    string mensaje = "La entrega es esta noche";
+
+    private void ModificarMensaje(string msg)
+    {
+        mensaje = msg;           
+    }
+
+    private void ModificarMensajeClick()
+    {
+        mensaje = "click en componente ";
+    }
+}

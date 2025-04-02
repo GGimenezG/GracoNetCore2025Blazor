@@ -1,0 +1,12 @@
+﻿<!-- Boton modo "normal" -->
+@inject StateContainer stateContainer
+
+<button @onclick="SetCssNormal">Normal</button>
+
+@code {
+
+    void SetCssNormal()
+    {
+        stateContainer.AsignarColorCss("negro");
+    }
+}

@@ -14,15 +14,21 @@ namespace BlazorApp1.Components.Pages
         {
             //validar lo que ya tengo en la entidad personaje
 
+            //if (String.IsNullOrEmpty(personaje.nombre))
+            //{
+            //    mensaje = "El nombre no puede estar vacio";
+            //    return;
+            //}
+
             string urlApi = "Personaje";
             var respuesta = await Consumer.Execute<Personaje, PersonajeDTO>(urlApi, methodHttp.POST, personaje);
             if (respuesta.Ok)
             {
-                mensaje = ":) furula";
+                mensaje = respuesta.Message;
             }
             else
             {
-                mensaje = "): no furula";
+                mensaje = respuesta.Message;
             }
 
         }
@@ -88,7 +94,7 @@ namespace BlazorApp1.Components.Pages
         {
 
 
-            string urlApi = $"/Personaje/{personaje.id}";
+            string urlApi = $"Ubicacion/{personaje.id}";
 
             var respuesta = await Consumer.Execute<string>(urlApi,methodHttp.DELETE, null);
             if (respuesta.Ok)
@@ -98,9 +104,9 @@ namespace BlazorApp1.Components.Pages
             }
             else
             {
-                mensaje = "): no furula";
+                mensaje = respuesta.Message;
             }
-
+            StateHasChanged();
         }
     }
 }
