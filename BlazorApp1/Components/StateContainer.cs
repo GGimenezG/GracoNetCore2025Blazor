@@ -1,4 +1,4 @@
-﻿namespace AppBlazor.Components
+﻿namespace BlazorApp1.Components
 {
     public class StateContainer
     {

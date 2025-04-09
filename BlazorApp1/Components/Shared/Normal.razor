@@ -1,5 +1,5 @@
 ﻿<!-- Boton modo "normal" -->
-@inject StateContainer stateContainer
+@inject StateContainer otraForma
 
 <button @onclick="SetCssNormal">Normal</button>
 
@@ -7,6 +7,6 @@
 
     void SetCssNormal()
     {
-        stateContainer.AsignarColorCss("negro");
+        otraForma.AsignarColorCss("negro");
     }
 }

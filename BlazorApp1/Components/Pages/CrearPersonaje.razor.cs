@@ -1,6 +1,10 @@
 ﻿using BlazorApp1.Data;
+using BlazorApp1.Data.Services;
 using Core.Entities;
+
+//using Core.Entities;
 using Data.Models;
+using Microsoft.AspNetCore.Components;
 using Newtonsoft.Json;
 using System.Text;
 
@@ -10,18 +14,16 @@ namespace BlazorApp1.Components.Pages
     {
         public PersonajeDTO personaje = new();
         public string mensaje { get; set; }
+
+        [Inject]
+        public PersonajeService service { get; set; }
+
         public async void Enviar()
         {
-            //validar lo que ya tengo en la entidad personaje
+           
+            var respuesta = await service.CrearPersonaje(personaje);
 
-            //if (String.IsNullOrEmpty(personaje.nombre))
-            //{
-            //    mensaje = "El nombre no puede estar vacio";
-            //    return;
-            //}
-
-            string urlApi = "Personaje";
-            var respuesta = await Consumer.Execute<Personaje, PersonajeDTO>(urlApi, methodHttp.POST, personaje);
+           
             if (respuesta.Ok)
             {
                 mensaje = respuesta.Message;
@@ -37,25 +39,17 @@ namespace BlazorApp1.Components.Pages
         {
             try
             {
-
-                string urlApi = $"Personaje";
-                //var data = new StringContent(JsonConvert.SerializeObject(personaje), Encoding.UTF8, "application/json");
-                var respuesta = await Consumer.Execute<List<Personaje>>(urlApi, methodHttp.GET, null);
-
+                var respuesta = await service.Get(personaje.id);
                 if (respuesta.Ok)
                 {
-                    List<Personaje> lstPersonaje = respuesta.Data;
-
-                    Personaje personajeResponse = lstPersonaje.FirstOrDefault(per => per.id == personaje.id);
-
-                    if (personajeResponse == null)
+                    if (respuesta.Data == null)
                         throw new Exception("Persoanje no existe");
 
-                    if (!String.IsNullOrEmpty(personajeResponse.nombre))
+                    if (!String.IsNullOrEmpty(respuesta.Data.nombre))
                     {
-                        personaje.nombre = personajeResponse.nombre;
-                        personaje.salud = personajeResponse.salud.valor;
-                        personaje.tipoId = personajeResponse.tipoId;
+                        personaje.nombre = respuesta.Data.nombre;
+                        personaje.salud = respuesta.Data.salud.valor;
+                        personaje.tipoId = respuesta.Data.tipoId;
                     }
 
                     mensaje = ":) furula";
@@ -75,10 +69,8 @@ namespace BlazorApp1.Components.Pages
 
         public async void Actualizar()
         {
-            
 
-            string urlApi = "Personaje";
-            var respuesta = await Consumer.Execute<Personaje,PersonajeDTO>(urlApi, methodHttp.PUT, personaje);
+            var respuesta = await service.ActualizarPersonaje(personaje);
             if (respuesta.Ok)
             {
                 mensaje = ":) furula";
@@ -93,10 +85,7 @@ namespace BlazorApp1.Components.Pages
         public async void Eliminar()
         {
 
-
-            string urlApi = $"Ubicacion/{personaje.id}";
-
-            var respuesta = await Consumer.Execute<string>(urlApi,methodHttp.DELETE, null);
+            var respuesta = await service.Delete(personaje.id);
             if (respuesta.Ok)
             {
                 mensaje = ":) furula";

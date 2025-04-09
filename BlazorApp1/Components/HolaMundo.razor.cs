@@ -10,7 +10,7 @@ namespace BlazorApp1.Components
 
 
         [Parameter]
-        public EventCallback<string> OnClick { get; set; }
+        public EventCallback<string> patata { get; set; }
 
         public override async Task SetParametersAsync(ParameterView parameters)
         {
@@ -32,7 +32,7 @@ namespace BlazorApp1.Components
 
         public async void ClickCallback()
         {
-            await OnClick.InvokeAsync("Click al boton desde el hijo con tipo Callback");
+            await patata.InvokeAsync("Click al boton desde el hijo con tipo Callback");
 
         }
 
@@ -40,8 +40,14 @@ namespace BlazorApp1.Components
         {
             //if(mensajeMostrar == null)
                 mensajeMostrar = $"Initialized at {DateTime.Now}";
+
+            stateContainer.CambiarColor += StateHasChanged;
         }
 
+        public void Dispose()
+        {
+            stateContainer.CambiarColor -= StateHasChanged;
+        }
 
     }
 }

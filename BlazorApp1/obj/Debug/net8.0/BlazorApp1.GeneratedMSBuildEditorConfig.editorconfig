@@ -44,6 +44,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Guillermo/Documents/Gracosoft/Pruebas2025/Blazor2025/BlazorApp1/BlazorApp1/Components/Pages/Movimiento.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNb3ZpbWllbnRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guillermo/Documents/Gracosoft/Pruebas2025/Blazor2025/BlazorApp1/BlazorApp1/Components/Pages/Personajes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQZXJzb25hamVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Guillermo/Documents/Gracosoft/Pruebas2025/Blazor2025/BlazorApp1/BlazorApp1/Components/Pages/TodoList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUb2RvTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,8 +64,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Guillermo/Documents/Gracosoft/Pruebas2025/Blazor2025/BlazorApp1/BlazorApp1/Components/Shared/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Guillermo/Documents/Gracosoft/Pruebas2025/Blazor2025/BlazorApp1/BlazorApp1/Components/Shared/Normal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcTm9ybWFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guillermo/Documents/Gracosoft/Pruebas2025/Blazor2025/BlazorApp1/BlazorApp1/Components/Shared/Rojo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcUm9qby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Guillermo/Documents/Gracosoft/Pruebas2025/Blazor2025/BlazorApp1/BlazorApp1/Components/_Imports.razor]

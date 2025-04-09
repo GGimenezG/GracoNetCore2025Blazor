@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jrP0SaovIbvvGp+9X2x82Jnt5551XklpLp3JqBx/6r4=",
+  "Hash": "naGH+gCT3Zk+QKviqeJRPL+WUDA1dGEfVpGixTNRaGk=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "da95v2qkru",
-      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "Fingerprint": "13i2qwpw2a",
+      "Integrity": "881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -145,6 +145,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "app.13i2qwpw2a.css",
+      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 23:12:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "13i2qwpw2a"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k="
+        }
+      ]
+    },
+    {
       "Route": "app.css",
       "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
       "Selectors": [],
@@ -155,7 +200,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2591"
+          "Value": "2680"
         },
         {
           "Name": "Content-Type",
@@ -163,11 +208,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+          "Value": "\"881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 22:48:09 GMT"
+          "Value": "Wed, 02 Apr 2025 23:12:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -177,52 +222,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
-        }
-      ]
-    },
-    {
-      "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2591"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 22:48:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "da95v2qkru"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+          "Value": "sha256-881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k="
         }
       ]
     },

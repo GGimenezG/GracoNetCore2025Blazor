@@ -1,0 +1,35 @@
+﻿@using Core.Entities
+
+<section>
+    Personaje
+    <h1>@personaje.nombre</h1>
+    <h3>Nivel: @personaje.nivel</h3>
+</section>
+<section class="@ubicacion.clima">Ubicacion</section>
+<section>Enemigo</section>
+
+<button>Moverse</button>
+
+
+@code {
+
+    [Inject]
+    public PersonajeService service { get; set; }
+
+    public Personaje personaje { get; set; }
+    public Ubicacion ubicacion { get; set; }
+    public Enemigo enemigo{ get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var response = await service.Get(13);
+
+        personaje = response.Data;
+
+        ubicacion = personaje.ubicacion;
+
+        //enemigo = ubicacion.
+
+    }
+}
