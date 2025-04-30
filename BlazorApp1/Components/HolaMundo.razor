@@ -1,17 +1,27 @@
 ﻿@page "/hola/{mensaje?}"
+@using Microsoft.AspNetCore.Components.Authorization
 @rendermode InteractiveServer
+@inject NavigationManager NavigationManager
 
+@inject TokenContainer tokenContainer
 @inject StateContainer stateContainer
 @implements IDisposable
 
-<article>
-    
-    <h3 class="@stateContainer.SelectedCssClass">HolaMundo desde el componente HolaMundo: @mensaje</h3>
+<CascadingAuthenticationState>
+    <AuthorizeView>
+        <Authorized>
+            <article>
+                <h3 class="@stateContainer.SelectedCssClass">HolaMundo desde el componente HolaMundo: @mensaje</h3>
+                <h4>@mensajeMostrar</h4>
+                <button @onclick="ClickCallback">Enviar evento al padre callback</button>
+                <Rojo></Rojo>
+                <Normal></Normal>
+                <button class="button btn-primary" aria-hidden="true" @onclick="CerrarSesion">Cerrar sesión</button>
 
-
-    <h4>@mensajeMostrar</h4>
-
-    <button @onclick="ClickCallback" >Enviar evento al padre callback</button>
-    <Rojo></Rojo>
-    <Normal></Normal>
-</article>
+            </article>
+        </Authorized>
+        <NotAuthorized>
+            You are not authorized
+        </NotAuthorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>

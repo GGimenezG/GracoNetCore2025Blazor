@@ -1,4 +1,5 @@
-﻿using Core.Entities;
+﻿using BlazorApp1.Components;
+using Core.Entities;
 using Data.Models;
 
 namespace BlazorApp1.Data.Services
@@ -6,6 +7,11 @@ namespace BlazorApp1.Data.Services
     public class PersonajeService
     {
         const string url = "Personaje";
+        private readonly TokenContainer _tokenContainer;
+        public PersonajeService(TokenContainer tokenContainer)
+        {
+            _tokenContainer = tokenContainer;
+        }
         public async Task<Response<Personaje>> CrearPersonaje(PersonajeDTO personaje)
         {
             Response<Personaje> response = new Response<Personaje>();
@@ -58,12 +64,13 @@ namespace BlazorApp1.Data.Services
             List<Personaje> lstPersonajes = new List<Personaje>();
             try
             {
-
+                string t = _tokenContainer.token;
                 response = await Consumer
                     .Execute<List<Personaje>>(
                         url,
                         methodHttp.GET,
-                        lstPersonajes
+                        lstPersonajes,
+                        t
                     );
 
             }

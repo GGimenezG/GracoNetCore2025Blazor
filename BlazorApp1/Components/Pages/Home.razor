@@ -1,32 +1,18 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Components.Authorization
 @rendermode InteractiveServer
 @inject StateContainer stateContainer
-@implements IDisposable
+
 
 <PageTitle>Home modificado</PageTitle>
 
-<article style="border: 2px solid @borde"> 
+<article style="border: 2px solid @borde">
 
-    <h1 id="titulo1">Hello, world!</h1>
+<h1 id="titulo1">Hello, world!</h1>
 
-    <HolaMundo mensaje="@mensaje" patata="ModificarMensaje"></HolaMundo>
-
-    <h3 class="@stateContainer.SelectedCssClass"> >>>> @mensaje</h3>
-
-    Welcome to your new app.
-
-    <button @onclick="() => ModalDialog.Open()">Mostrar modal</button>
-
-
-    <Modal @ref="@ModalDialog" titulo="Modal de prueba">
-        <section>
-            Contenido de prueba
-             <h3>Titulo de prueba</h3>
-             <CrearPersonaje></CrearPersonaje>
-        </section>
-    </Modal>
 
 </article>
+
 
 @code{
     [CascadingParameter]
@@ -47,14 +33,14 @@
         mensaje = "click en componente ";
     }
 
-    protected override void OnInitialized()
-    {
-        stateContainer.CambiarColor += StateHasChanged;
-    }
+    // protected override void OnInitialized()
+    // {
+    //     stateContainer.CambiarColor += StateHasChanged;
+    // }
 
-    public void Dispose()
-    {
-        stateContainer.CambiarColor -= StateHasChanged;
+    // public void Dispose()
+    // {
+    //     stateContainer.CambiarColor -= StateHasChanged;
 
-    }
+    // }
 }

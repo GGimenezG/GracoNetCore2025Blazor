@@ -40,3 +40,10 @@ C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorA
 C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.pdb
 C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\obj\Debug\net8.0\BlazorApp1.genruntimeconfig.cache
 C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\obj\Debug\net8.0\ref\BlazorApp1.dll
+C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Blazored.SessionStorage.dll
+C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

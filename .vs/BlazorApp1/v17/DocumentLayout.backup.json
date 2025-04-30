@@ -3,120 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\shared\\modal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\shared\\modal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\shared\\modal.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\shared\\modal.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\personajes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\personajes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\counter\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\counter\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\personajes.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\personajes.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\crearpersonaje.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\crearpersonaje.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\data\\services\\personajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\data\\services\\personajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\data\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\data\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\holamundo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\holamundo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\data\\auth\\customauthenticationstateprovider .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\data\\auth\\customauthenticationstateprovider .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\holamundo.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\holamundo.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\tokencontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\tokencontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\statecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\statecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\shared\\rojo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\shared\\rojo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\data\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\data\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\shared\\normal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\shared\\normal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\crearpersonaje.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\crearpersonaje.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\data\\methodhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\data\\methodhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\todolist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\todolist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\weather.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\weather.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pagenotfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pagenotfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\blazorapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\blazorapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\guillermo\\documents\\gracosoft\\pruebas2025\\blazor2025\\blazorapp1\\blazorapp1\\components\\pages\\crearpersonaje.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FE899-8742-44A6-8B2D-72C661D8021B}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\crearpersonaje.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,375 +50,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Modal.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Shared\\Modal.razor.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Shared\\Modal.razor.cs",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Shared\\Modal.razor.cs",
-              "RelativeToolTip": "BlazorApp1\\Components\\Shared\\Modal.razor.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:48:23.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Modal.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Shared\\Modal.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Shared\\Modal.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Shared\\Modal.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Shared\\Modal.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T22:17:44.287Z",
+              "WhenOpened": "2025-04-29T11:55:17.79Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Program.cs",
-              "RelativeToolTip": "BlazorApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T23:00:52.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Rojo.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Shared\\Rojo.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Shared\\Rojo.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Shared\\Rojo.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Shared\\Rojo.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T22:49:53.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Counter\\Counter.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Counter\\Counter.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Counter\\Counter.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Counter\\Counter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T21:42:50.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Normal.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Shared\\Normal.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Shared\\Normal.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Shared\\Normal.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Shared\\Normal.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T23:08:04.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Personajes.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Personajes.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Personajes.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Personajes.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Personajes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T21:00:53.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswBgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T23:12:47.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T23:14:25.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CrearPersonaje.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\CrearPersonaje.razor.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\CrearPersonaje.razor.cs",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\CrearPersonaje.razor.cs",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\CrearPersonaje.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T22:25:07.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Routes.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T01:22:26.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "Consumer.cs",
               "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\Consumer.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Data\\Consumer.cs",
               "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\Consumer.cs",
               "RelativeToolTip": "BlazorApp1\\Data\\Consumer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAowHgAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T22:15:38.559Z",
+              "WhenOpened": "2025-04-29T13:01:45.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\TokenContainer.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\TokenContainer.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\TokenContainer.cs",
+              "RelativeToolTip": "BlazorApp1\\Components\\TokenContainer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T22:13:30.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomAuthenticationStateProvider .cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\Auth\\CustomAuthenticationStateProvider .cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Data\\Auth\\CustomAuthenticationStateProvider .cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\Auth\\CustomAuthenticationStateProvider .cs",
+              "RelativeToolTip": "BlazorApp1\\Data\\Auth\\CustomAuthenticationStateProvider .cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:16:38.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T11:59:32.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Personajes.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Personajes.razor.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Personajes.razor.cs",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Personajes.razor.cs",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Personajes.razor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Data\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\Services\\AuthService.cs",
+              "RelativeToolTip": "BlazorApp1\\Data\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T21:02:14.569Z",
+              "WhenOpened": "2025-04-29T12:06:49.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HolaMundo.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\HolaMundo.razor.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\HolaMundo.razor.cs",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\HolaMundo.razor.cs",
-              "RelativeToolTip": "BlazorApp1\\Components\\HolaMundo.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:25:13.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T21:20:47.401Z",
+              "WhenOpened": "2025-04-30T22:33:24.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HolaMundo.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\HolaMundo.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\HolaMundo.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\HolaMundo.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\HolaMundo.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T22:24:32.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "StateContainer.cs",
               "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\StateContainer.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\StateContainer.cs",
               "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\StateContainer.cs",
               "RelativeToolTip": "BlazorApp1\\Components\\StateContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T22:48:33.994Z",
+              "WhenOpened": "2025-04-30T22:13:12.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PersonajeService.cs",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\Services\\PersonajeService.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Data\\Services\\PersonajeService.cs",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\Services\\PersonajeService.cs",
-              "RelativeToolTip": "BlazorApp1\\Data\\Services\\PersonajeService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowGoAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T15:37:34.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CrearPersonaje.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\CrearPersonaje.razor.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\CrearPersonaje.razor.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\CrearPersonaje.razor.cs",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\CrearPersonaje.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T21:03:51.688Z",
+              "WhenOpened": "2025-04-29T12:43:46.207Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CrearPersonaje.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\CrearPersonaje.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\CrearPersonaje.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\CrearPersonaje.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\CrearPersonaje.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T22:06:56.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\_Imports.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T23:25:53.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
-              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\app.css",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
-              "RelativeToolTip": "BlazorApp1\\wwwroot\\app.css",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-02T23:09:46.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "methodHttp.cs",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\methodHttp.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Data\\methodHttp.cs",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Data\\methodHttp.cs",
-              "RelativeToolTip": "BlazorApp1\\Data\\methodHttp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T22:16:49.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\.gitignore",
-              "RelativeDocumentMoniker": "BlazorApp1\\.gitignore",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\.gitignore",
-              "RelativeToolTip": "BlazorApp1\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-31T22:16:50.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TodoList.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\TodoList.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\TodoList.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\TodoList.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\TodoList.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T22:18:39.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "BlazorApp1\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\appsettings.Development.json",
-              "RelativeToolTip": "BlazorApp1\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-24T22:44:58.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T23:12:37.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Weather.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Weather.razor.cs",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor.cs",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Weather.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:12:39.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PageNotFound.razor",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\PageNotFound.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\PageNotFound.razor",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\Components\\PageNotFound.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\PageNotFound.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T01:44:37.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BlazorApp1",
-              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
-              "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1.csproj",
-              "ToolTip": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
-              "RelativeToolTip": "BlazorApp1\\BlazorApp1.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-12T01:37:13.952Z"
             }
           ]
         }

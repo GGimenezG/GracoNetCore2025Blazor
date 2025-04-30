@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using BlazorApp1.Data.Auth;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace BlazorApp1.Components
 {
@@ -29,7 +31,12 @@ namespace BlazorApp1.Components
         //{
         //    OnClick.Invoke("Click al boton desde el hijo con tipo Action");
         //}
+        public void CerrarSesion()
+        {
+            tokenContainer.Clear();
+            NavigationManager.NavigateTo("/");
 
+        }
         public async void ClickCallback()
         {
             await patata.InvokeAsync("Click al boton desde el hijo con tipo Callback");
@@ -42,11 +49,14 @@ namespace BlazorApp1.Components
                 mensajeMostrar = $"Initialized at {DateTime.Now}";
 
             stateContainer.CambiarColor += StateHasChanged;
+            tokenContainer.OnChange += StateHasChanged;
         }
 
         public void Dispose()
         {
             stateContainer.CambiarColor -= StateHasChanged;
+            tokenContainer.OnChange -= StateHasChanged;
+
         }
 
     }
